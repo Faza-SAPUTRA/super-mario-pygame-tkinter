@@ -12,6 +12,6 @@ setup(
         ("sfx", glob.glob("sfx\\*.ogg") + glob.glob("sfx\\*.wav")),
         ("levels", glob.glob("levels\\*.json")),
         ("img", glob.glob("img\\*.gif") + glob.glob("img\\*.png")),
-        ("", ["settings.json"]),
+        ("", glob.glob("settings.json")),
     ],
 )
